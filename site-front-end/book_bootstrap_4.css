@@ -1,0 +1,396 @@
+<!-- Conteneur 1 -->
+<div class="row justify-content-center mb-4 mt-4">
+    <div class="col-12 col-md-6 book-col">
+        <div class="book-container book-container-1 rectangle-large-1">
+            <p class="c1-p">Mode Femme <br>Automne-Hiver <br>2025-2026</p>
+            <h1 class="c1-h1">LES <br>TENDANCES <br>INCONTOURNABLES</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Conteneurs 2 et 3 -->
+<div class="row mb-4">
+    <div class="col-12 col-md-6 book-col align-left">
+        <div class="book-container book-container-2 rectangle-2">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fa24bfd7ef7.png" class="img-1 z2">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fa24ce7da95.png" class="img-2 z3">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fa38bd3c1c5.png" class="img-3 z4">
+            <h1 class="c2-h1">LE COLOR-BLOCK</h1>
+            <p class="c2-p p-1">Miu-Miu</p>
+            <p class="c2-p p-2">Gucci</p>
+            <p class="c2-p p-3">Saint <br>Laurent</p>
+            <ul class="c2-li li-1 li-book">
+                <li>couleur</li>
+                <li>contrast</li>
+                <li>structure</li>
+            </ul>
+            <ul class="c2-li li-2 li-book">
+                <li>superposition</li>
+                <li>audace</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 book-col align-right">
+        <div class="book-container book-container-3 rectangle-3">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb46d560a40.png" class="img-1 z3">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb46e0ee581.png" class="img-2 z2">
+            <p class="c3-p p-1">Saint <br>Laurent</p>
+            <p class="c3-p p-2">Chloé</p>
+            <ul class="c3-li li-1 li-book">
+                <li>féminité</li>
+                <li>raffiné</li>
+                <li>texture</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Conteneurs 4 et 5 -->
+<div class="row mb-4">
+    <div class="col-12 col-md-6 book-col align-left">
+        <div class="book-container book-container-4 rectangle-4">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb472a2d896.png" class="img-1 z2">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb473b0794a.png" class="img-2 z3">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb4746e8a04.png" class="img-3 z4">
+            <h1 class="c4-h1">ATTACHEZ VOS CEINTURES</h1>
+            <h1 class="citation"
+                style="top: 20px; left: 270px; font-size: 1.25rem !important; font-weight: 400 !important; line-height: 1">
+                Fini les ceintures <br>fines au style “old<br>money”
+            </h1>
+            <p class="c4-p p-1">Vaquera</p>
+            <p class="c4-p p-2">Schiaparelli</p>
+            <ul class="c4-li li-1 li-book">
+                <li>cuir</li>
+                <li>maximalist</li>
+                <li>proportion XXL</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 book-col align-right">
+        <div class="book-container book-container-5 rectangle-5">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb47981423d.png" class="img-1 z4">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb47981c5c0.png" class="img-2 z3">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb47a155bc2.png" class="img-3 z2">
+            <h1 class="c5-h1">OFFICE LOOK</h1>
+            <p class="c5-p p-1">Givenchy</p>
+            <p class="c5-p p-2 z5" style="color: white !important;">Ferragamo</p>
+            <p class="c5-p p-3">Rebecca Taylor</p>
+            <ul class="c5-li li-1 li-book">
+                <li>tailoring</li>
+                <li>structuré</li>
+                <li>ultra cintré</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Conteneur 6 -->
+<div class="row justify-content-center mb-4">
+    <div class="col-12 col-md-6 book-col">
+        <div class="book-container book-container-6 rectangle-6">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb47de75e4d.png" class="img-1 z3">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb47de7a27c.png" class="img-2 z2">
+            <img src="/storage/src/opu-c5b3ed-18/18/68fb47de9b04c.png" class="img-3 z2">
+            <h1 class="c6-h1">À CARREAUX</h1>
+            <p class="c6-p p-1 z5">Louis <br>Vuitton</p>
+            <p class="c6-p p-2 z5">Missoni</p>
+            <p class="c6-p p-3 z5">Duran Lantink</p>
+            <ul class="c6-li li-1 li-book">
+                <li>rigueur</li>
+                <li>british look</li>
+                <li>détails</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+/* -------------------- Importation des polices -------------------- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400;700&family=Inter:wght@400;600;700&display=swap');
+
+/* -------------------- Base -------------------- */
+.book-container {
+  position: relative !important;
+  background-color: #fff !important;
+  width: 100% !important;
+  max-width: 780px !important;
+  height: auto !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  margin: auto !important;
+  overflow: hidden !important;
+  padding-bottom: 2rem !important; /* espace intérieur pour h1 */
+}
+
+.book-col { 
+  display: flex !important; 
+  justify-content: center !important; 
+  margin-top: 1rem !important; 
+}
+
+.book-container * {
+  position: absolute !important;
+  color: black !important;
+}
+
+.book-container ul {
+  position: absolute !important;
+  left: 0% !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.book-container ul li {
+  position: static !important;
+  display: block !important;
+  line-height: 1 !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.li-book li::before {
+    content: '•' !important;
+    color: black !important;
+    display: inline-block !important;
+    width: 1em !important;
+    margin-left: -1em !important;
+}
+
+/* -------------------- Tailles fixes -------------------- */
+.rectangle-large-1 { width: 780px !important; height: 390px !important; }
+.rectangle-2, .rectangle-3, .rectangle-4, .rectangle-5, .rectangle-6 { width: 390px !important; height: 547px !important; }
+
+/* Alignements */
+.align-left { justify-content: flex-start !important; }
+.align-right { justify-content: flex-end !important; }
+
+/* Marges entre conteneurs */
+.rectangle-2, .rectangle-4 { margin-left: auto !important; margin-right: 10px !important; }
+.rectangle-3, .rectangle-5 { margin-left: 10px !important; margin-right: auto !important; }
+
+/* -------------------- Backgrounds -------------------- */
+.book-container-1 { background-image: url('/storage/src/opu-c5b3ed-18/18/68fa19d32dea6.png') !important; }
+.book-container-2 { background-image: url('/storage/src/opu-c5b3ed-18/18/68fa2282a09af.png') !important; background-position: center !important; background-size: 90% 90% !important; }
+.book-container-3 { background-image: url('/storage/src/opu-c5b3ed-18/18/68fb31b64b396.png') !important; background-position: center top !important; background-size: contain !important; }
+.book-container-4 { background-image: url('/storage/src/opu-c5b3ed-18/18/68fb31ebb4017.png') !important; background-position: center !important; background-size: 90% 90% !important;}
+.book-container-5 { background-image: url('/storage/src/opu-c5b3ed-18/18/68fb324ea8b56.png') !important; background-position: center !important; background-size: 90% 90% !important;}
+.book-container-6 { background-image: url('/storage/src/opu-c5b3ed-18/18/68fb32f96b30e.png') !important; background-position: top left !important; background-size: 90% !important; }
+
+/* -------------------- Typographies -------------------- */
+h1, p { font-family: 'DM Serif Display', serif !important; }
+.book-container ul li { font-family: 'Inter', sans-serif !important; }
+
+/* -------------------- Conteneur 1 -------------------- */
+.c1-h1 { top: 40% !important;
+    left: 10% !important;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    margin-top: 1rem; }
+.c1-p { top: 20% !important; left: 10% !important; font-size: 1.25rem !important; font-weight: 500 !important; }
+
+/* -------------------- Paragraphes conteneurs 2 à 6 -------------------- */
+c2-p, .c3-p, .c4-p, .c5-p, .c6-p {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+    color: black !important;
+    white-space: normal !important;
+}
+
+/* -------------------- Listes conteneurs 2,4,5,6 (regular) -------------------- */
+.c2-li li, .c4-li li, .c5-li li, .c6-li li {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400 !important;
+    color: black !important;
+    list-style-type: disc !important;
+    margin-left: 1.2em !important;
+}
+
+/* -------------------- Liste conteneur 3 (gras) -------------------- */
+.c3-li li {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+    color: black !important;
+    list-style-type: disc !important;
+    margin-left: 1.2em !important;
+}
+
+/* -------------------- Conteneur 2 -------------------- */
+.book-container-2 .img-1 { top: 2% !important; left: 0% !important; }
+.book-container-2 .img-2 { top: 25% !important; left: 25% !important; }
+.book-container-2 .img-3 { top: 10% !important; left: 55% !important; }
+.book-container-2 .c2-h1 { bottom: -3% !important; left: 5% !important; font-size: 2rem !important; }
+.book-container-2 .p-1 { top: 50% !important; left: 5% !important; }
+.book-container-2 .p-2 { top: 15% !important; left: 35% !important; }
+.book-container-2 .p-3 { top: 80% !important; left: 75% !important; }
+.book-container-2 .li-1 { top: 57.5% !important; left: 0% !important; }
+.book-container-2 .li-2 { top: 0% !important; left: 70% !important; }
+
+/* -------------------- Conteneur 3 -------------------- */
+.book-container-3 .img-1 { top: 30% !important; left: 25% !important; }
+.book-container-3 .img-2 { top: 5% !important; left: 50% !important; }
+.book-container-3 .p-1 { top: 25% !important; left: 20% !important; }
+.book-container-3 .p-2 { top: 12.5% !important; left: 55% !important; z-index: 5 !important; }
+.book-container-3 .li-1 { top: 80% !important; left: 10% !important; }
+
+/* -------------------- Conteneur 4 -------------------- */
+.book-container-4 .img-1 { top: 20% !important; left: 50% !important; }
+.book-container-4 .img-2 { top: 5% !important; left: 2% !important; }
+.book-container-4 .img-3 { top: 40% !important; left: 10% !important; }
+.book-container-4 .c4-h1 { bottom: -3% !important; left: 5% !important; font-size: 1.8rem !important; }
+.book-container-4 .p-1 { top: 80% !important; left: 26% !important; z-index: 5 !important; }
+.book-container-4 .p-2 { top: 20% !important; left: 75% !important; }
+.book-container-4 .li-1 { top: 80% !important; left: 75% !important; }
+
+/* -------------------- Conteneur 5 -------------------- */
+.book-container-5 .img-1 { top: 45% !important; left: 50% !important; }
+.book-container-5 .img-2 { top: 5% !important; left: 0% !important; }
+.book-container-5 .img-3 { top: 0% !important; left: 30% !important; }
+.book-container-5 .c5-h1 { bottom: -3% !important; left: 5% !important; font-size: 2rem !important; }
+.book-container-5 .p-1 { top: 5% !important; left: 2% !important; }
+.book-container-5 .p-2 { top: 0% !important; left: 56% !important; z-index: 5 !important; }
+.book-container-5 .p-3 { top: 80% !important;
+    left: 55% !important; }
+.book-container-5 .li-1 {     top: 80% !important;
+    left: 32% !important; }
+
+/* -------------------- Conteneur 6 -------------------- */
+.book-container-6 .img-1 { top: 5% !important; left: 40% !important; }
+.book-container-6 .img-2 { top: 40% !important; left: 65% !important; }
+.book-container-6 .img-3 { top: 20% !important; left: 10% !important; }
+.book-container-6 .c6-h1 { bottom: -3% !important; left: 5% !important; font-size: 2rem !important; }
+.book-container-6 .p-1 { top: 70% !important; left: 10% !important; }
+.book-container-6 .p-2 {     top: 60% !important;
+    left: 41.5% !important; }
+.book-container-6 .p-3 {     top: 87% !important;
+    left: 62% !important; }
+.book-container-6 .li-1 { top: 5% !important; left: 80% !important; }
+
+/* -------------------- z-index -------------------- */
+.z2 { z-index: 2 !important; }
+.z3 { z-index: 3 !important; }
+.z4 { z-index: 4 !important; }
+.z5 { z-index: 5 !important; }
+
+/* -------------------- Responsive -------------------- */
+
+@media (max-width: 1024px) { /* - Tablette / Mobile - */
+  .book-col {  justify-content: center !important; margin-left: auto !important;margin-right: auto !important; }
+  .book-container h1 { font-size: 1.6rem !important; }
+    .book-container c1-h1 {
+    top: 56% !important;
+    left: 12% !important; }
+  .book-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .book-container-2 {
+    background-size: 70% 85% !important;
+}
+.book-container-4 {
+    background-size: 70% 85% !important;
+}
+.book-container-5 {
+    background-size: 70% 85% !important;
+}
+}
+
+@media (max-width: 426px) { /* - Mobile général - */
+  .book-container {
+    max-width: 400px !important;
+    margin-bottom: 1.25rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .book-container-1 {
+    height: 260px !important;
+}
+  .book-container h1 { font-size: 1.2rem !important; }
+  .c1-p {
+    top: 6% !important;
+    left: 10% !important;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+  }
+  .book-container ul { display: none !important; }
+  .book-container-2 .p-2 {
+    top: 18.5% !important;
+    left: 42% !important;
+  }
+}
+
+@media (max-width: 375px) { /* - Mobile M - */
+  .book-container {
+    padding-bottom: 1.5rem !important;
+  }
+  .book-container h1 { font-size: 1rem !important; }
+  .c1-p {
+    top: 4% !important;
+    left: 8% !important;
+    font-size: 1rem !important;
+  }
+  .book-container-1 { height: 220px !important; }
+  .book-container-2 .c2-h1
+  .book-container-2 .c5 h1
+  .book-container-2 .c6 h1 {
+    font-size: 1.4rem !important;
+}
+.book-container-4 .c4-h1 {
+    font-size: 1.6rem !important;
+}
+.book-container-4 .p-1 {
+    left: 28% !important;
+    font-size: 0.8rem !important;
+}
+.book-container-5 .p-2 {
+    left: 62% !important;
+}
+.book-container-6 .p-2 {
+    top: 80% !important;
+}
+}
+
+
+@media (max-width: 320px) { /* - Mobile S - */
+  .book-container {
+    padding-bottom: 1rem !important;
+  }
+  .book-container h1 { font-size: 0.9rem !important; }
+  .c1-p {
+    top: 16% !important;
+    left: 6% !important;
+    font-size: 0.9rem !important;
+    line-height: 0.9;
+  }
+  .book-container-1 { height: 200px !important; }
+  .book-container-2 .p-1 {
+    top: 51% !important;
+}
+.book-container-2 .p-3 {
+    left: 78% !important;
+}
+.c4-h1 {
+    left: 78% !important;
+}
+.citation {
+    top: 2% !important;
+    left: 70% !important;
+    font-size: 1.25rem !important;
+    font-weight: 400 !important;
+    line-height: 1;
+}
+}
+
+
+@media (min-width: 1024px) { /* - Desktop Large - */
+  .book-container { max-width: 900px !important; }
+  .book-container h1 { font-size: 2.5rem !important; }
+  .book-container p { display: block !important; }
+  .c1-p {top: 20% !important;left: 10% !important;font-size: 1.25rem !important;font-weight: 500 !important;}
+}
+
+
+</style>

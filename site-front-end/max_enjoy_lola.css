@@ -1,0 +1,196 @@
+<div>
+  <div class="container-fluid">
+
+    <!-- ===================== CONTENEUR 1 (Big Box) ===================== -->
+    <div class="row mb-3 big-box position-relative">
+      <div class="col-2 d-flex justify-content-center align-items-center">
+        <img src="/storage/src/opu-c5b3ed-18/18/690b461e8e625.png" alt="Image 1" class="img-fluid first-img">
+      </div>
+      <div class="col-8 middle-col"></div>
+      <div class="col-2 d-flex justify-content-center align-items-center">
+        <p class="text-box">
+          Max &amp; Enjoy crée des pièces qui célèbrent la confiance et le style des femmes modernes.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== LIGNE 2 : Conteneurs 2 & 3 ===================== -->
+    <div class="row mb-3">
+      <!-- Conteneur 2 -->
+      <div class="col-md-6 col-12 mb-3 mb-md-0">
+        <div class="small-box d-flex p-0">
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <p class="text-left-box-large">Douceur cachemire, sans laine ni allergènes</p>
+          </div>
+          <div class="col-6 right-img-box" style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b49416ea6c.png');"></div>
+        </div>
+      </div>
+      <!-- Conteneur 3 -->
+      <div class="col-md-6 col-12 mb-3 mb-md-0">
+        <div class="small-box d-flex p-0">
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <p class="text-left-box-small">Notre maille d’exception allie confort, légèreté et style pour un quotidien sans compromis</p>
+          </div>
+          <div class="col-6 right-img-box" style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b4c990817a.png');"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== LIGNE 3 : Conteneurs 4 & 5 ===================== -->
+    <!-- Conteneur 4 -->
+    <div class="row mb-3">
+      <div class="col-md-6 col-12 mb-3 mb-md-0">
+        <div class="small-box d-flex p-0">
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <p class="text-left-box-small">Découvrez nos collections pensées pour sublimer la féminité et s’adapter à chaque moment de la journée</p>
+          </div>
+          <div class="col-6 right-img-box" style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b4c9655143.png');"></div>        </div>
+      </div>
+      <!-- Conteneur 5 (2 images) -->
+      <div class="col-md-6 col-12 mb-3 mb-md-0">
+        <div class="small-box d-flex p-0">
+          <div class="col-5 right-img-box" style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b4eb7d071d.png');"></div>
+    <div class="col-2"></div>
+    <div class="col-5 right-img-box" style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b4eba0ae8b.png');"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== LIGNE 4 : Conteneurs 6 & 7 ===================== -->
+    <!-- Conteneur 6 -->
+    <div class="row mb-3">
+      <div class="col-md-6 col-12 mb-3 mb-md-0">
+        <div class="small-box d-flex p-0">
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <p class="text-left-box-large">Féminité, confiance et design pensé pour vous</p>
+          </div>
+          <div class="col-6 right-img-box" style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b4943d42ed.png');"></div>
+        </div>
+      </div>
+      <!-- Conteneur 7 -->
+      <div class="col-md-6 col-12 mb-3 mb-md-0">
+        <div class="small-box d-flex p-0">
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <p class="text-left-box-small">Chaque pièce Max &amp; Enjoy accompagne les femmes modernes avec élégance et confort</p>
+          </div>
+          <div class="col-6 right-img-box" style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b4c938a325.png');"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<style>
+/* ===================== CONTENEUR 1 ===================== */
+.big-box {
+  width: 100%;
+  max-width: 1440px;  
+  height: 35vh;
+  background-color: #9A9694 !important;
+  margin: 0 auto;
+  position: relative !important;
+  display: flex;
+  align-items: center;
+}
+
+.middle-col {
+  width: 100%;
+  height: 100%;
+  background-image: url('/storage/src/opu-c5b3ed-18/18/690b463e1662e.png') !important;
+  background-size: cover !important;  /* prend toute la hauteur */
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+.first-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-box {
+  width: 200px !important;
+  font-family: 'Inter' !important;
+  font-weight: 300 !important;
+  font-size: 28px !important;
+  line-height: 32px !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* ===================== SMALL BOX ===================== */
+.small-box {
+  width: 50%;  
+  height: 25vh;
+  background-color: #9A9694;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.text-left-box-large, .text-left-box-small {
+  width: 100%;
+  text-align: center;
+  font-family: 'Inter' !important;
+  font-weight: 200 !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.text-left-box-large { font-size: 24px !important; }
+.text-left-box-small { font-size: 18px !important; }
+
+.right-img-box {
+  width: 50%;
+  height: 100%;
+  background-size: 130% auto !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: #9A9694;
+}
+
+/* ===================== RESPONSIVE ===================== */
+/* Ordinateur 1440px */
+@media (max-width: 1440px) {
+  .big-box { max-width: 1200px; height: 30vh; }
+  .small-box { max-width: 1200px; height: 22vh; }
+  .text-box { font-size: 24px !important; line-height: 28px; }
+  .text-left-box-large { font-size: 20px !important; }
+  .text-left-box-small { font-size: 16px !important; }
+}
+
+/* Ordinateur 1024px */
+@media (max-width: 1024px) {
+  .big-box { max-width: 900px; height: 28vh; }
+  .small-box { max-width: 900px; height: 20vh; }
+  .text-box { font-size: 20px !important; line-height: 24px; }
+  .text-left-box-large { font-size: 18px !important; }
+  .text-left-box-small { font-size: 14px !important; }
+}
+
+/* Tablette 768px - structure identique à desktop */
+@media (max-width: 768px) {
+  .big-box { max-width: 700px; height: 25vh; }
+  .small-box { width: 50%; height: 18vh; }  /* conserve 2 small-box par ligne */
+  .text-box { font-size: 16px !important; width: 120px !important; line-height: 18px !important; }
+  .text-left-box-large { font-size: 14px !important; }
+  .text-left-box-small { font-size: 12px !important; }
+  .right-img-box { width: 50%; height: 100%; }
+}
+
+/* Mobile 425px */
+@media (max-width: 425px) {
+  .big-box { max-width: 360px; height: 20vh; }
+  .small-box { width: 100%; height: 16vh; }  /* small-box pleine largeur */
+  .text-box { font-size: 14px !important; width: 3rem; }
+  .text-left-box-large { font-size: 12px !important; }
+  .text-left-box-small { font-size: 10px !important; }
+  .right-img-box { width: 50%; height: 100%; }
+}
+
+</style>

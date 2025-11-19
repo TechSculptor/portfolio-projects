@@ -1,0 +1,120 @@
+<!-- PAGE ENFANTS -->
+
+<!-- SECTION 1 -->
+<div class="container-fluid section">
+  <div class="row no-gutters h-100">
+    <div class="col-md-8 bg-cover" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2e095c684.png');"></div>
+    <div class="col-md-4 bg-cover" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2e0d4603b.png');"></div>
+  </div>
+  <h1>LES TENDANCES ENFANTS</h1>
+</div>
+
+<!-- BANNIÈRE DÉFILANTE -->
+<div class="banniere">
+  <p>
+    Automne-Hiver 2025-2026 . Mode Enfants Automne-Hiver 2025-2026 . Tenues Douces et Stylées . Pulls, Gilets, Robes et Accessoires . Automne-Hiver 2025-2026 . Mode Enfants Automne-Hiver 2025-2026 . Tenues Douces et Stylées . Pulls, Gilets, Robes et Accessoires .
+  </p>
+  <script>
+    window.addEventListener('load', () => {
+      const banner = document.currentScript.previousElementSibling;
+      banner.innerHTML += banner.innerHTML;
+    });
+  </script>
+</div>
+
+<!-- SECTION 2 -->
+<div class="container-fluid section">
+  <div class="row no-gutters h-100">
+    <div class="col-md-4 bg-contain" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2e3fd3d68.png');"></div>
+    <div class="col-md-4 text-center-col">
+      <h2>COULEURS PASTELS</h2>
+      <p>Cette saison, les teintes pastel apportent fraîcheur et légèreté aux looks enfants. Rose tendre, bleu ciel ou vert menthe habillent pulls, robes et accessoires pour des tenues à la fois douces et stylées.</p>
+    </div>
+    <div class="col-md-4 bg-contain" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2e4300df5.png');"></div>
+  </div>
+</div>
+
+<!-- SECTION 3 -->
+<div class="container-fluid section">
+  <div class="row no-gutters h-100">
+    <div class="col-md-8 bg-cover" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2e84b2932.png');"></div>
+    <div class="col-md-4 bg-cover" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2e96c489a.png');"></div>
+  </div>
+</div>
+
+<!-- SECTION 4 -->
+<div class="container-fluid section">
+  <div class="row no-gutters h-100">
+    <div class="col-md-4 bg-contain" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2ebe600f7.png');"></div>
+    <div class="col-md-4 text-center-col">
+      <h2>LES ENSEMBLES</h2>
+      <p>Associer pièces coordonnées devient un jeu d’enfant cette saison. Les ensembles — pantalons et vestes assortis, ou hauts et jupes ton sur ton — facilitent le choix des tenues tout en apportant style et harmonie.</p>
+    </div>
+    <div class="col-md-4 bg-contain" style="background-image:url('/storage/src/opu-c5b3ed-18/18/690b2ec17a5aa.png');"></div>
+  </div>
+</div>
+
+<style>
+/* CONTAINER DE CHAQUE SECTION */
+.section {
+    width: 880px !important;
+    height: 500px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    margin: 0 auto !important;
+    display: flex !important;
+}
+
+/* COLONNES */
+.col-md-8, .col-left { flex: 2 !important; }
+.col-md-4, .col-center, .col-right { flex: 1 !important; }
+
+.bg-cover { background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important; }
+.bg-contain { background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important; }
+
+/* TEXTE */
+.text-center-col {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+h1, h2, p { margin: 0 !important; color: #000 !important; }
+h1 { font-family: 'DM Serif Display', serif !important; font-size: 80px !important; line-height: 70px !important; font-weight: 400 !important; position: absolute !important; left: 34px !important; top: 162px !important; }
+h2 { font-family: 'DM Serif Display', serif !important; font-size: 50px !important; line-height: 69px !important; font-weight: 400 !important; }
+p { font-family: 'Inter', sans-serif !important; font-size: 14px !important; line-height: 17px !important; font-weight: 500 !important; }
+
+/* BANNIÈRE DÉFILANTE */
+.banniere {
+    width: 880px !important;
+    height: 40px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    background: #000 !important;
+    color: #fff !important;
+    margin: 20px auto !important;
+}
+
+.banniere p {
+    display: inline-block !important;
+    white-space: nowrap !important;
+    padding-left: 100% !important;
+    animation: scrollBanner 20s linear infinite !important;
+}
+
+@keyframes scrollBanner {
+    0% { transform: translateX(0%) !important; }
+    100% { transform: translateX(-100%) !important; }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .section { width: 100% !important; flex-direction: column !important; }
+    h1 { font-size: 50px !important; line-height: 55px !important; top: 80px !important; }
+    h2 { font-size: 32px !important; line-height: 38px !important; }
+    p { font-size: 12px !important; line-height: 16px !important; }
+}
+</style>

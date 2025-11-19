@@ -1,0 +1,430 @@
+<!-- Conteneur 1 -->
+<div class="row justify-content-center mb-4 mt-4">
+  <div class="col-12 col-md-6 book-col">
+    <div class="book-container book-container-1 rectangle-large-1">
+      <div class="ellipse ellipse-1"></div>
+      <div class="ellipse ellipse-2"></div>
+      <div class="rectangle-vertical"></div>
+
+      <p class="c1-p">Mode Femme <br>Automne-Hiver <br>2025-2026</p>
+      <h1 class="c1-h1">LES <br>TENDANCES <br>ACCESSOIRES</h1>
+
+      <img class="img-1" src="/storage/src/opu-c5b3ed-18/18/690358599bdcf.png">
+    </div>
+  </div>
+</div>
+
+<!-- Conteneur 2 -->
+<div class="row mb-4">
+  <div class="col-12 col-md-6 book-col align-left">
+    <div class="book-container book-container-2 rectangle-2">
+      <h2>GANTS</h2>
+      <ul class="c2-li li-1 li-book">
+        <li>touche finale</li>
+        <li>harmonie</li>
+        <li>texture</li>
+      </ul>
+      <img class="img-1" src="/storage/src/opu-c5b3ed-18/18/69035c132c021.png">
+      <img class="img-2" src="/storage/src/opu-c5b3ed-18/18/69034943540b1.png">
+    </div>
+  </div>
+
+  <!-- Conteneur 3 -->
+  <div class="col-12 col-md-6 book-col align-right">
+    <div class="book-container book-container-3 rectangle-3">
+      <h2>CEINTURE <span class="bold">XXL</span></h2>
+      <ul class="c3-li li-1 li-book">
+        <li>structuré</li>
+        <li>cuir</li>
+        <li>imposant</li>
+      </ul>
+      <div class="rectangle-vertical small"></div>
+      <img class="img-1" src="/storage/src/opu-c5b3ed-18/18/690349811b4c2.png">
+      <img class="img-2" src="/storage/src/opu-c5b3ed-18/18/6903496177fe4.png">
+      <img class="img-3" src="/storage/src/opu-c5b3ed-18/18/69034954c654d.png">
+    </div>
+  </div>
+</div>
+
+<!-- Conteneur 4 -->
+<div class="row mb-4">
+  <div class="col-12 col-md-6 book-col align-left">
+    <div class="book-container book-container-4 rectangle-4">
+      <div class="ellipse large"></div>
+      <h2>BIJOUX <span class="bold">XXL</span></h2>
+      <ul class="c4-li li-1 li-book">
+        <li>détails</li>
+        <li>luxe</li>
+        <li>affirmé</li>
+      </ul>
+      <img class="img-1" src="/storage/src/opu-c5b3ed-18/18/69034990368dc.png">
+      <img class="img-2" src="/storage/src/opu-c5b3ed-18/18/6903499c97034.png">
+      <img class="img-3" src="/storage/src/opu-c5b3ed-18/18/690349ac71f36.png">
+    </div>
+  </div>
+
+  <!-- Conteneur 5 -->
+  <div class="col-12 col-md-6 book-col align-right">
+    <div class="book-container book-container-5 rectangle-5">
+      <h2>CAGOULE</h2>
+      <ul class="c5-li li-1 li-book">
+        <li>casual</li>
+        <li>confortable</li>
+        <li>motifs</li>
+        <li>texture</li>
+      </ul>
+      <img class="img-1" src="/storage/src/opu-c5b3ed-18/18/690349bf475b5.png">
+      <img class="img-2" src="/storage/src/opu-c5b3ed-18/18/690349d06e639.png">
+      <img class="img-3" src="/storage/src/opu-c5b3ed-18/18/690349dc1a80e.png">
+    </div>
+  </div>
+</div>
+
+<!-- Conteneur 6 -->
+<div class="row justify-content-center mb-4">
+  <div class="col-12 col-md-6 book-col">
+    <div class="book-container book-container-6 rectangle-6">
+      <div class="ellipse e1"></div>
+      <div class="ellipse e2"></div>
+      <div class="ellipse e3"></div>
+
+      <h2>LUNETTES OVERSIZE / COLOREES</h2>
+      <ul class="c6-li li-1 li-book">
+        <li>rétro</li>
+        <li>urbain chic</li>
+        <li>XXL</li>
+      </ul>
+
+      <img class="img-1" src="/storage/src/opu-c5b3ed-18/18/690349ec86016.png">
+      <img class="img-2" src="/storage/src/opu-c5b3ed-18/18/690349f85a561.png">
+      <img class="img-3" src="/storage/src/opu-c5b3ed-18/18/69034a063de53.png">
+    </div>
+  </div>
+</div>
+
+<style>
+
+/* Polices */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Inter:wght@500;700&display=swap');
+
+/* -------------------- Base -------------------- */
+.book-container {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  margin: auto;
+}
+
+.book-container * {
+  position: absolute;
+  color: black;
+}
+
+.book-col {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+h1, h2, p {font-family: 'DM Serif Display', serif}
+
+h2 { bottom: -3%; left: 5%;font-size: 1.25rem !important; }
+
+h2 span.bold {font-size: 2rem}
+
+.align-left { justify-content: flex-start; }
+.align-right { justify-content: flex-end; }
+.rectangle-2, .rectangle-4 { margin-left: auto; margin-right: 0.625rem; }
+.rectangle-3, .rectangle-5 { margin-left: 0.625rem; margin-right: auto; }
+
+/* -------------------- Dimensions -------------------- */
+.rectangle-large-1 { width: 48.75rem; height: 24.375rem; }
+.rectangle-2, .rectangle-3, .rectangle-4, .rectangle-5, .rectangle-6 { width: 24.375rem; height: 34.188rem; }
+
+/* -------------------- Ellipses & Rectangles -------------------- */
+.ellipse {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.rectangle-vertical {
+  position: absolute;
+  background-color: #8B8B8B;
+  width: 3rem;
+  height: 33rem;
+  right: 15%;
+  top: 0;
+}
+
+.rectangle-vertical.small {
+  right: 5%;
+  height: 33rem;
+}
+
+/* Conteneur 1 formes */
+.book-container-1 .ellipse-1 {
+  background-color: #D5C06D;
+  width: 9rem;
+  height: 11rem;
+  top: 10%;
+  left: 5%;
+}
+.book-container-1 .ellipse-2 {
+  background-color: #0022FF;
+  width: 5.6rem;
+  height: 5.6rem;
+  top: 5%;
+  left: 20%;
+}
+
+/* Conteneur 4 ellipse large */
+.book-container-4 .ellipse.large {
+  background-color: #D5C06D;
+  width: 18rem;
+  height: 26rem;
+  top: 15%;
+  left: 10%;
+  z-index: 0;
+}
+
+/* Conteneur 6 ellipses */
+.book-container-6 .e1 {
+  background-color: #0022FF;
+  width: 20rem;
+  height: 20rem;
+  top: 10%;
+  left: -10%;
+  z-index: 0;
+}
+.book-container-6 .e2 {
+  background-color: #0022FF;
+  width: 4.75rem;
+  height: 4.875rem;
+  top: 0%;
+  right: 25%;
+  z-index: 0;
+}
+.book-container-6 .e3 {
+    background-color: #0022FF;
+    width: 9.375rem;
+    height: 9.375rem;
+    left: 14%;
+    bottom: 10%;
+    z-index: 0;
+}
+
+/* -------------------- Typographies -------------------- */
+.c1-p {
+  bottom: 45%;
+  left: 5%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.c1-h1 {
+  bottom: 0%;
+  left: 5%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* -------------------- Listes -------------------- */
+.book-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-container ul li {
+  position: static;
+  display: block;
+  line-height: 1.2;
+  font-family: 'Inter', sans-serif;
+}
+
+.li-book li::before {
+  content: '•';
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+/* -------------------- Conteneur 1 -------------------- */
+.book-container-1 {
+  background-image: url('/storage/src/opu-c5b3ed-18/18/69034a9cc1a8f.png') !important;
+  background-size: center;
+  background-repeat: no-repeat;
+}
+
+/* -------------------- Conteneur 2 -------------------- */
+.book-container-2 {
+  background-image: url('/storage/src/opu-c5b3ed-18/18/69034ac4a3658.png') !important;
+  background-size: cover;
+}
+.book-container-2 .li-1 { bottom: 10%; left: 10%; }
+
+/* -------------------- Conteneur 3 -------------------- */
+.book-container-3 .li-1 {
+    top: 5%;
+    right: 20%;
+}
+
+/* -------------------- Conteneur 4 -------------------- */
+.book-container-4 .li-1 {
+    top: 10%;
+    right: 10%;
+    z-index: 2;
+}
+
+/* -------------------- Conteneur 5 -------------------- */
+.book-container-5 {
+  background-image: url('/storage/src/opu-c5b3ed-18/18/69034a9cc1a8f.png') !important;
+  background-size: cover;
+}
+.book-container-5 .li-1 {
+    bottom: 10%;
+    left: 10%;
+}
+
+/* -------------------- Conteneur 6 -------------------- */
+.book-container-6 .li-1 {
+    bottom: 7%;
+    right: 10%;
+    z-index: 2;
+}
+
+/* -------------------- Images Position -------------------- */
+.book-container img {
+  height: auto;
+  position: absolute;
+}
+
+.book-container-1 img.img-1 {bottom: 0%;right: 0%}
+
+.book-container-2 img.img-1 {
+    top: 0%;
+    right: -20%;
+}
+.book-container-2 img.img-2 {
+    bottom: -3%;
+    right: -20%;
+}
+
+.book-container-3 img.img-1 {
+    top: 10%;
+    left: 0%;
+    z-index: 5;
+}
+.book-container-3 img.img-2 {
+    bottom: 0%;
+    right: 15%;
+    z-index: 6;
+}
+.book-container-3 img.img-3 {
+    top: 20%;
+    right: 5%;
+}
+
+.book-container-4 img.img-1 {
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+}
+.book-container-4 img.img-2 {
+    top: 30%;
+    right: 40%;
+    z-index: 2;
+}
+.book-container-4 img.img-3 {
+    bottom: 0%;
+    right: 0%;
+    z-index: 5;
+}
+
+.book-container-5 img.img-1 { top: 10%; left: 10%; }
+.book-container-5 img.img-2 {
+    top: 0%;
+    right: 10%;
+}
+.book-container-5 img.img-3 { bottom: 10%; left: 20%; }
+
+.book-container-6 img.img-1 {
+    top: -15%;
+    left: 5%;
+    z-index: 2;
+}
+.book-container-6 img.img-2 {
+    top: 5%;
+    right: 10%;
+    z-index: 1;
+}
+.book-container-6 img.img-3 {
+    bottom: 7%;
+    right: -102%;
+    z-index: 2;
+}
+
+/* -------------------- Responsive -------------------- */
+
+/* ========================= */
+/* 🎯 RESPONSIVE DESIGN      */
+/* ========================= */
+
+/* 💻 Desktop L (>=1024px) */
+@media (max-width: 1024px) {
+  .rectangle-large-1 { width: 42rem; height: 22rem; }
+  .rectangle-2, .rectangle-3, .rectangle-4, .rectangle-5, .rectangle-6 {width: 22rem;height: 32rem;}
+
+  h1, h2 {font-size: 1.25rem;}
+
+  .li-book li {font-size: 0.95rem;}
+
+  .ellipse {transform: scale(0.9);}
+}
+
+/* 📱 Tablette (<=768px) */
+@media (max-width: 768px) {
+  .book-col {justify-content: center;margin-left: auto;margin-right: auto;}
+  .book-container {margin-left: auto;margin-right: auto;max-width: 36.25rem;}
+
+  h1, h2 {font-size: 1.1rem;line-height: 1.2;}
+
+  p.c1-p {font-size: 0.9rem;}
+
+  .li-book li {font-size: 0.85rem;}
+
+  .ellipse {transform: scale(0.8);opacity: 0.9;}
+
+  .rectangle-vertical {width: 2rem;right: 10%;}
+}
+
+/* 📱 Mobile L (<=425px) */
+@media (max-width: 425px) {
+  .book-container {max-width: 27.25rem;margin-bottom: 1.25rem;padding-bottom: 2rem;}
+  .book-container-1 {aspect-ratio: 16 / 9;}
+
+  .ellipse, .rectangle-vertical {display: none;}
+
+  h2 {font-size: 1rem;}
+
+  .book-container h2 {bottom: 0%;}
+
+  .li-book li {font-size: 0.8rem;}
+}
+
+/* 📱 Mobile M (<=375px) */
+@media (max-width: 375px) {
+  .book-container {padding: 1.25rem 0.75rem;}
+
+  .li-book li {font-size: 0.75rem;}
+}
+
+/* 📱 Mobile S (<=320px) */
+@media (max-width: 320px) {
+  .book-container {padding: 1rem 0.5rem;}
+
+  .li-book li {font-size: 0.7rem;}
+}
+
+</style>

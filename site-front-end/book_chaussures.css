@@ -1,0 +1,230 @@
+<!-- Conteneur 1 -->
+<div class="row justify-content-center mb-4 mt-4">
+    <div class="col-12 col-md-6 book-col">
+        <div class="book-container book-container-1 rectangle-large-1">
+            <p class="c1-p z5">Mode Femme <br>Automne-Hiver <br>2025-2026</p>
+            <h1 class="c1-h1 z5">LES <br>TENDANCES <br>CHAUSSURES</h1>
+            <img class="img-1">
+            <img class="img-2">
+            <img class="img-3">
+            <img class="img-4">
+            <img class="img-5">
+        </div>
+    </div>
+</div>
+
+<!-- Conteneurs 2 et 3 -->
+<div class="row mb-4">
+    <div class="col-12 col-md-6 book-col align-left">
+        <div class="book-container book-container-2 rectangle-2">
+            <img class="img-1 z1">
+            <img class="img-2 z2">
+            <img class="img-3">
+            <h2>BALLERINES à BRIDES à BOUT CARRE</h2>
+            <ul class="c2-li li-1 li-book">
+                <li>élégant</li>
+                <li>casual</li>
+                <li>minimaliste</li>
+            </ul>
+        </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------ -->
+    <div class="col-12 col-md-6 book-col align-right">
+        <div class="book-container book-container-3 rectangle-3">
+            <img class="img-1 z1">
+            <img class="img-2 z2">
+            <img class="img-3">
+            <h2>LES BATEAUX</h2>
+            <ul class="c3-li li-1 li-book z5">
+                <li>effortless</li>
+                <li>élégant</li>
+                <li>souple</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Conteneurs 4 et 5 -->
+<div class="row mb-4">
+    <div class="col-12 col-md-6 book-col align-left">
+        <div class="book-container book-container-4 rectangle-4">
+            <img class="img-1 z1">
+            <img class="img-2 z2">
+            <h2>ESCARPINS / CHAUSSETTES</h2>
+            <ul class="c4-li li-1 li-book">
+                <li>décalé</li>
+                <li>rétro</li>
+                <li>audace</li>
+            </ul>
+        </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------ -->
+    <div class="col-12 col-md-6 book-col align-right">
+        <div class="book-container book-container-5 rectangle-5">
+            <img class="img-1 z1">
+            <img class="img-2 z2">
+            <h2>BALLET SNEACKERS</h2>
+            <ul class="c5-li li-1 li-book">
+                <li>sporty chic</li>
+                <li>modernité</li>
+                <li>casual</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Conteneur 6 -->
+<div class="row justify-content-center mb-4">
+    <div class="col-12 col-md-6 book-col">
+        <div class="book-container book-container-6 rectangle-6">
+            <img class="img-1 z2">
+            <img class="img-2 z3">
+            <img class="img-3 z4">
+            <h2>BOTTES MONTANTES</h2>
+            <ul class="c6-li li-1 li-book">
+                <li>glamour</li>
+                <li>sophistication</li>
+                <li>imposant</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+
+/* -------------------- Importation des polices -------------------- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Inter:wght@500;700&display=swap');
+
+/* ---------------------------------------- Base ---------------------------------------- */
+.book-container {
+  position: relative;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 90%;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+.book-container * {
+  position: absolute;
+  color: black;
+}
+
+.book-col { 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 1rem; 
+}
+
+/* -------------------- Listes -------------------- */
+.book-container ul {position: absolute;left: 0%;list-style: none;padding: 0;margin: 0}
+.book-container ul li {position: static;display: block;line-height: 1;font-family: 'Inter', sans-serif;font-weight: 0.75rem}
+.li-book li::before {content: '•';color: black;display: inline-block;width: 1em;margin-left: -1em}
+
+/* -------------------- Base conteneurs -------------------- */
+.rectangle-large-1 { width: 48.75rem; height: 24.375rem; }
+.rectangle-2, .rectangle-3, .rectangle-4, .rectangle-5, .rectangle-6 { width: 24.375rem; height: 34.188rem; }
+
+.align-left { justify-content: flex-start; }
+.align-right { justify-content: flex-end; }
+.rectangle-2, .rectangle-4 { margin-left: auto; margin-right: 0.625rem; }
+.rectangle-3, .rectangle-5 { margin-left: 0.625rem; margin-right: auto; }
+
+/* -------------------- Typographies -------------------- */
+h1, h2, p { font-family: 'DM Serif Display', serif; }
+h2 { bottom: -3%; left: 5%;font-size: 1.25rem; }
+
+/* -------------------- Conteneur 1 -------------------- */
+.c1-p { bottom: 50%; left: 10%; font-size: 1.25rem; font-weight: 400; }
+.c1-h1 { bottom: 5%;left: 10%;font-size: 2.625rem;font-weight: 400;line-height: 1.25;margin-top: 1rem; }
+.book-container-1 .img-1 { top: 10%; left: 5%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-1 .img-2 { top: 5%; left: 10%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-1 .img-3 { top: 5%; right: 5%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-1 .img-4 { top: 40%; right: 2%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-1 .img-5 { top: 50%; right: 15%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+
+/* -------------------- Conteneur 2 -------------------- */
+.book-container-2 .img-1 { top: 20%; left: 2%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-2 .img-2 { top: 0%; right: 5%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-2 .img-3 { bottom: 10%; right: 3%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-2 .li-1 { top: 40%; right: 5%; }
+
+/* -------------------- Conteneur 3 -------------------- */
+.book-container-3 .img-1 { top: 10%; left: -5%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-3 .img-2 { top: 0%; right: 3%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-3 .img-3 { bottom: 2%; left: 40%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-3 .li-1 { top: 40%; right: 5%; }
+
+/* -------------------- Conteneur 4 -------------------- */
+.book-container-4 .img-1 { top: 10%; left: 3%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-4 .img-2 { top: 0%; right: 0%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-4 .li-1 { top: 30%; right: 5%; }
+
+/* -------------------- Conteneur 5 -------------------- */
+.book-container-5 .img-1 { top: 0%; left: 2%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-5 .img-2 { top: 5%; right: 10%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-5 .li-1 { top: 35%; right: 5%; }
+
+/* -------------------- Conteneur 6 -------------------- */
+.book-container-6 .img-1 { bottom: 30%; left: 3%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-6 .img-2 { top: 40%; left: 40%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-6 .img-3 { top: 0%; right: 2%;background-image: url('/storage/src/opu-c5b3ed-18/18/6902240196ed7.png'); }
+.book-container-6 .li-1 { bottom: 20%; left: 10%; }
+
+/* -------------------- z-index -------------------- */
+.z0 { z-index: 0; }
+.z1 { z-index: 1; }
+.z2 { z-index: 2; }
+.z3 { z-index: 3; }
+.z4 { z-index: 4; }
+.z5 { z-index: 5; }
+
+/* ---------------------------------------- Responsive ---------------------------------------- */
+
+@media (max-width: 1025px) {
+
+    /* - Tablette / Mobile - */
+    .book-col {justify-content: center;margin-left: auto;margin-right: auto;}
+    .book-container {margin-left: auto;margin-right: auto;max-width: 36.25rem;}
+}
+
+@media (max-width: 426px) {
+
+    /* - Mobile L - */
+    .book-container {max-width: 27.25rem;margin-bottom: 1.25rem;padding-bottom: 2rem;}
+    .book-container-1 {aspect-ratio: 16 / 9;}
+
+    .c1-p {bottom: 60%;left: 15%;}
+    .c1-h1 {bottom: 0%;left: 16%;font-size: 2rem;}
+
+    .book-container h2 {bottom: 0%;}
+}
+
+@media (max-width: 376px) {
+
+  /* - Mobile M - */
+
+}
+
+@media (max-width: 321px) {
+
+  /* - Mobile S - */
+    .book-container ul {display: none !important;}
+}
+
+
+@media (min-width: 1025px) {
+
+  /* - Desktop Large - */
+  .book-container {
+    max-width: 56.25rem;
+  }
+  .c1-p {top: 30%;}
+  h2 {font-size: 1.25rem !important;}
+
+  
+}
+
+</style>

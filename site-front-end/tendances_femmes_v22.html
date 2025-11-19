@@ -1,0 +1,224 @@
+<div>
+  <div class="row">
+    <div class="container">
+      <h1 class="title-main">LES TENDANCES FEMMES</h1>
+
+      <!-- 4 fleurs -->
+      <div class="fleur" style="left: 10px; top: 50px; transform: rotate(5deg) scale(0.8);"></div>
+      <div class="fleur" style="left: 200px; top: 30px; transform: rotate(-15deg) scale(1);"></div>
+      <div class="fleur" style="left: 400px; top: 100px; transform: rotate(20deg) scale(0.9);"></div>
+      <div class="fleur" style="left: 100px; top: 200px; transform: rotate(-10deg) scale(1.1);"></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="container">
+      <h2 class="h1-vert">VERT PISTACHE</h2>
+      <div class="image44"></div>
+      <div class="image45"></div>
+      <!-- 1 fleur -->
+      <div class="fleur" style="left: 300px; top: 180px; transform: rotate(30deg) scale(0.7);"></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="container">
+      <h2 class="h1-colorblock">LE COLOR-BLOCK</h2>
+      <div class="image35"></div>
+      <div class="rect-image"></div>
+      <!-- 1 fleur -->
+      <div class="fleur" style="left: 50px; top: 300px; transform: rotate(-25deg) scale(0.9);"></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="container">
+      <h2 class="h1-dentelle">EN DENTELLE</h2>
+      <div class="image36"></div>
+      <div class="vector38"></div>
+      <!-- 2 fleurs -->
+      <div class="fleur" style="left: 250px; top: 250px; transform: rotate(15deg) scale(1);"></div>
+      <div class="fleur" style="left: 350px; top: 320px; transform: rotate(-5deg) scale(0.8);"></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="container">
+      <h2 class="office-look">OFFICE LOOK</h2>
+      <div class="image40"></div>
+      <div class="ferragamo"></div>
+      <!-- 2 fleurs -->
+      <div class="fleur" style="left: 150px; top: 400px; transform: rotate(10deg) scale(1.2);"></div>
+      <div class="fleur" style="left: 50px; top: 150px; transform: rotate(-20deg) scale(0.7);"></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="container">
+      <h2 class="attach-ceintures">ATTACHEZ VOS CEINTURES !</h2>
+      <div class="vector40"></div>
+      <div class="vector41"></div>
+      <!-- 2 fleurs -->
+      <div class="fleur" style="left: 400px; top: 50px; transform: rotate(25deg) scale(0.9);"></div>
+      <div class="fleur" style="left: 120px; top: 80px; transform: rotate(-10deg) scale(1);"></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="container">
+      <h2 class="les-franges">LES FRANGES</h2>
+      <div class="img-6373"></div>
+      <div class="image38"></div>
+      <div class="image39"></div>
+      <!-- 2 fleurs -->
+      <div class="fleur" style="left: 220px; top: 350px; transform: rotate(5deg) scale(1.1);"></div>
+      <div class="fleur" style="left: 320px; top: 150px; transform: rotate(-15deg) scale(0.8);"></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="container">
+      <h2 class="a-carreaux">A CARREAUX</h2>
+      <div class="image42"></div>
+      <div class="image41"></div>
+      <div class="image43"></div>
+      <!-- 1 fleur -->
+      <div class="fleur" style="left: 180px; top: 120px; transform: rotate(10deg) scale(1);"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Containers */
+.row {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px; /* espace entre sections */
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Titles */
+h1.title-main {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 60px;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+/* Images */
+.container img,
+.container div[class^="image"] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+/* Fleurs */
+.fleur {
+  position: absolute;
+  width: 445px;
+  height: 422px;
+  background-image: url('fleur.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+/* --- Placement des fleurs pour chaque section --- */
+/* Section 1: 4 fleurs */
+.section1 .fleur:nth-child(1) { top: 20px; left: 10px; transform: rotate(5deg) scale(0.8); }
+.section1 .fleur:nth-child(2) { top: 50px; left: 200px; transform: rotate(-15deg) scale(1); }
+.section1 .fleur:nth-child(3) { top: 100px; left: 400px; transform: rotate(20deg) scale(0.9); }
+.section1 .fleur:nth-child(4) { top: 200px; left: 100px; transform: rotate(-10deg) scale(1.1); }
+
+/* Section 2: 1 fleur */
+.section2 .fleur:nth-child(1) { top: 150px; left: 300px; transform: rotate(30deg) scale(0.7); }
+
+/* Section 3: 1 fleur */
+.section3 .fleur:nth-child(1) { top: 80px; left: 50px; transform: rotate(-25deg) scale(0.9); }
+
+/* Section 4: 2 fleurs */
+.section4 .fleur:nth-child(1) { top: 50px; left: 250px; transform: rotate(15deg) scale(1); }
+.section4 .fleur:nth-child(2) { top: 120px; left: 350px; transform: rotate(-5deg) scale(0.8); }
+
+/* Section 5: 2 fleurs */
+.section5 .fleur:nth-child(1) { top: 180px; left: 150px; transform: rotate(10deg) scale(1.2); }
+.section5 .fleur:nth-child(2) { top: 50px; left: 400px; transform: rotate(-20deg) scale(0.7); }
+
+/* Section 6: 2 fleurs */
+.section6 .fleur:nth-child(1) { top: 30px; left: 120px; transform: rotate(-10deg) scale(1); }
+.section6 .fleur:nth-child(2) { top: 200px; left: 220px; transform: rotate(5deg) scale(1.1); }
+
+/* Section 7: 2 fleurs */
+.section7 .fleur:nth-child(1) { top: 150px; left: 320px; transform: rotate(-15deg) scale(0.8); }
+.section7 .fleur:nth-child(2) { top: 120px; left: 180px; transform: rotate(10deg) scale(1); }
+
+/* Section 8: 1 fleur */
+.section8 .fleur:nth-child(1) { top: 50px; left: 250px; transform: rotate(-5deg) scale(1); }
+
+/* Vecteurs décoratifs */
+.vector {
+  position: absolute;
+  border-radius: 12px;
+}
+
+.vector28 { width: 115px; height: 100px; background: #0099FF; transform: rotate(-9deg); top: 50px; left: 50px; }
+.vector40 { width: 186px; height: 154px; background: #C29F9F; transform: rotate(-9deg); top: 200px; left: 150px; }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .container {
+    transform: scale(0.8);
+    transform-origin: top center;
+  }
+  .fleur {
+    width: 300px;
+    height: 285px;
+  }
+}
+</style>
+
