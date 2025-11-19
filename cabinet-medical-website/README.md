@@ -1,85 +1,59 @@
-🏥 Cabinet Médical — Site web fictif
+--- Cabinet médical – Site de prise de rendez-vous en ligne ---
 
-Projet universitaire – Développement front-end
+Projet réalisé dans le cadre du cours NFE114 (CNAM Grand Est). Développement d’un site web permettant aux patients de :
 
-Site web vitrine réalisé dans le cadre d’un projet universitaire.
-L’objectif était de concevoir un site complet et responsive pour un cabinet médical fictif, en respectant une identité visuelle prédéfinie et en intégrant diverses fonctionnalités front-end.
+1 consulter les disponibilités des médecins,
 
-🚀 Fonctionnalités principales
+2 prendre rendez-vous en ligne,
 
-Page d’accueil avec présentation du cabinet
+3 gérer leurs réservations (ajout / annulation).
 
-Pages médecins avec descriptions et photos
+--- Fonctionnalités principales ---
 
-Horaires & contact
+1 Enregistrement patient (login, mot de passe, e-mail, téléphone)
 
-Formulaire de prise de rendez-vous (front-end uniquement)
+2 Authentification sécurisée
 
-Design responsive adapté mobile / tablette / desktop
+3 Prise de rendez-vous (date, heure, motif, premier rendez-vous ou suivi)
 
-Navigation simple et intuitive
+4 Consultation des créneaux disponibles
 
-Respect de la sémantique HTML5
+5 Annulation de rendez-vous
 
-🛠️ Technologies utilisées
+--- Fonctionnalités optionnelles (implémentées ou prévues) ---
 
-HTML5
+1 Confirmation par mail lors de l’inscription avec module PHP
 
-CSS3
+2 Récapitulatif PDF de la prise de rendez-vous
 
-JavaScript
+3 Amélioration ergonomie avec AJAX
 
-Responsive Design
+4 Gestion administrateur : ajout/suppression de médecins, visualisation planning
 
-(optional) Figma pour la maquette si applicable
+--- Stack technique ---
 
-📂 Structure du projet
-cabinet-medical-website/
-│── index.html
-│── contact.html
-│── médecins.html
-│── /css/
-│── /js/
-│── /images/
-└── README.md
+1 PHP (programmation orientée objet)
 
+2 PostgreSQL (base de données)
 
-(Tu adapteras selon ta structure réelle)
+3 HTML5 / CSS3 / JavaScript
 
-🌐 Démo en ligne
+4 Développé avec WampServer + Sublime Text
 
-ℹ️ La démo GitHub Pages pourra être activée quand tu migreras ce projet dans un dépôt dédié.
-Exemple :
-https://tonpseudo.github.io/cabinet-medical-website/
+--- Installation en local ---
 
-📦 Installation / Utilisation
+1 Cloner le projet dans C:/wamp64/www/cabinetmedical/
 
-Télécharger ou cloner le projet
+2 Importer la base PostgreSQL (script SQL fourni)
 
-git clone https://github.com/tonpseudo/portfolio-projects
+3 Lancer Apache + PostgreSQL
 
+4 Accéder via http://localhost/cabinetmedical/
 
-Aller dans le dossier du projet
+--- Améliorations possibles ---
 
-cd portfolio-projects/cabinet-medical-website
+1 Déploiement sur hébergeur web ou conteneurisation Docker
 
+2 Optimisation de l’UI/UX
 
-Ouvrir index.html dans le navigateur.
-
-🎯 Objectifs pédagogiques
-
-S’entraîner à l’intégration web
-
-Structurer un site complet
-
-Appliquer les bases de l’UX/UI
-
-Maîtriser HTML/CSS/JS pour un cas concret
-
-Assurer un rendu responsive
-
-📸 Prévoir une capture d’écran
-
-Tu peux ajouter une capture d’écran par exemple :
-
-![Aperçu du site](docs/screenshot.png)
+3 Ajout de tests unitaires
