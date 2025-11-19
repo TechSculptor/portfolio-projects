@@ -1,0 +1,181 @@
+<div class="container-fluid fashion-sections page-accessoires">
+
+    <div class="row section-1 align-items-center pt-5 pb-5"
+       style="background-image: url('/storage/src/opu-c5b3ed-18/18/690c5fec5b794.png');">
+    <div class="col-12 d-flex flex-column justify-content-center align-items-start">
+      <h1 class="section-title">LES<br>TENDANCES<br>ACCESSOIRES</h1>
+    </div>
+  </div>
+
+    <div class="row section-2 align-items-center pt-5 pb-5 section-cols">
+        <div class="col-8 d-flex flex-column justify-content-center align-items-center text-center section-content section-content-col">
+      <h2 class="section-subtitle">GANTS</h2>
+      <p class="section-text">
+        Les gants ne se contentent plus de protéger du froid : cette saison, ils deviennent de véritables accessoires de style. Déclinés en cuir, en maille ou en matières techniques, ils apportent audace et sophistication aux tenues. Des couleurs vives aux détails raffinés, chaque paire se transforme en pièce forte qui complète et sublime un look.
+      </p>
+    </div>
+        <div class="col-4 section-image-col"
+         style="background-image: url('/storage/src/opu-c5b3ed-18/18/690c600f74e64.png');">
+          </div>
+  </div>
+
+    <div class="row section-3 align-items-center pt-5 pb-5 section-cols">
+        <div class="col-4 d-flex flex-column justify-content-center align-items-center text-center section-content section-content-col">
+      <h2 class="section-subtitle">CEINTURE XXL</h2>
+      <p class="section-text">
+        La ceinture XXL s’impose comme une pièce forte cette saison. Elle sculpte la silhouette et transforme instantanément un look simple en tenue affirmée. Que ce soit sur un manteau, une robe ou une chemise oversize, elle apporte structure et caractère, tout en restant résolument tendance.
+      </p>
+    </div>
+        <div class="col-4 section-image-col"
+         style="background-image: url('/storage/src/opu-c5b3ed-18/18/690b7bc68f8bc.png');">
+          </div>
+        <div class="col-4 section-image-col">
+          </div>
+  </div>
+
+    <div class="row section-4 align-items-center pt-5 pb-5 section-cols">
+        <div class="col-6 d-flex flex-column justify-content-center align-items-center text-center section-content section-content-col">
+      <h2 class="section-subtitle">LES BIJOUX XXL</h2>
+      <p class="section-text">
+        Les bijoux XXL s’imposent comme des accessoires incontournables cette saison. Colliers massifs, boucles d’oreilles oversize ou chaînes multi-rangs, ils apportent immédiatement du caractère et de la personnalité aux tenues.
+      </p>
+    </div>
+        <div class="col-6 section-image-col"
+         style="background-image: url('/storage/src/opu-c5b3ed-18/18/690c6080ad11a.png');">
+          </div>
+  </div>
+
+    <div class="row section-5 align-items-center pt-5 pb-5 section-cols">
+        <div class="col-4 d-flex flex-column justify-content-center align-items-center text-center section-content section-content-col">
+      <h2 class="section-subtitle">CAGOULE</h2>
+      <p class="section-text">
+        Oser la cagoule, c’est adopter un accessoire fort cette saison. Alliant confort et audace, elle habille le visage tout en apportant un style avant-gardiste et moderne à la tenue.
+      </p>
+    </div>
+        <div class="col-4 section-image-col"
+         style="background-image: url('/storage/src/opu-c5b3ed-18/18/690c6092daca2.png');">
+          </div>
+        <div class="col-4 section-image-col">
+          </div>
+  </div>
+
+    <div class="row section-6 align-items-center pt-5 pb-5"
+       style="background-image: url('/storage/src/opu-c5b3ed-18/18/690c609e87216.png');">
+    <div class="col-12 d-flex flex-column justify-content-center align-items-center text-center section-content">
+      <h2 class="section-subtitle">LUNETTES OVERSIZE COLORÉES</h2>
+      <p class="section-text">
+        Les lunettes oversize colorées illuminent les visages et signent une allure mode assumée. En teintes pop ou pastel, elles apportent une touche de fraîcheur et de personnalité à chaque tenue.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<style>
+/* ============================================== */
+/* STYLES GÉNÉRAUX ET COMMUNS */
+/* ============================================== */
+.fashion-sections {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Style de base pour toutes les lignes de section (hauteur, alignement) */
+.row[class^="section-"] {
+  height: 850px;
+  min-height: 850px;
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Réinitialisation du style de fond pour les sections qui utilisent des colonnes */
+/* Les sections à fond complet conservent leur style de fond dans le HTML */
+.row.section-cols {
+  background-image: none !important;
+}
+
+/* S'assurer que les colonnes ont la hauteur de leur parent (la row) */
+.row[class^="section-"] > [class^="col-"] {
+  height: 100%;
+  min-height: 400px; /* Ajout d'une hauteur minimale pour le mode desktop */
+}
+
+/* Style spécifique pour la colonne contenant l'image de fond */
+.section-image-col {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Style des titres et textes (inchangé) */
+.section-title {
+  font-family: 'DM Serif Display' !important;
+  font-size: 90px !important;
+  line-height: 85px !important;
+  color: #000 !important;
+  text-align: left !important;
+  margin-left: 60px;
+}
+
+.section-subtitle {
+  font-family: 'DM Serif Display' !important;
+  /* Taille ajustée pour les deux pages */
+  font-size: 50px !important;
+  line-height: 63px !important;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.section-text {
+  font-family: 'Inter' !important;
+  font-size: 20px !important;
+  line-height: 32px !important;
+  color: #000 !important;
+  max-width: 70%;
+  text-align: center;
+}
+
+/* ============================================== */
+/* RESPONSIVE */
+/* ============================================== */
+@media (max-width: 768px) {
+  .row[class^="section-"] {
+    min-height: 600px;
+    background-size: cover;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  /* Pour les sections en colonnes sur mobile */
+  .row.section-cols {
+    display: flex; /* Assurer que l'alignement fonctionne */
+    flex-direction: column;
+  }
+
+  /* Les colonnes s'empilent et l'image a besoin d'une hauteur définie */
+  .row[class^="section-"] > [class^="col-"] {
+    width: 100% !important; /* Remplir la largeur */
+    height: auto;
+    min-height: 250px; /* Hauteur pour les colonnes images empilées */
+  }
+
+  .section-title {
+    font-size: 56px !important;
+    text-align: center !important;
+    margin-left: 0;
+  }
+
+  .section-subtitle {
+    font-size: 42px !important;
+  }
+
+  .section-text {
+    font-size: 16px !important;
+  }
+}
+</style>

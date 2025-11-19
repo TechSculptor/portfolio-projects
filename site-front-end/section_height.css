@@ -1,0 +1,37 @@
+.page-enfants .section-1,
+.page-enfants .section-2,
+.page-enfants .section-3,
+.page-enfants .section-4,
+.page-enfants .section-5,
+.page-enfants .section-6 {
+    height: 850px !important;
+    min-height: 850px !important;
+    background-size: contain !important; 
+    background-position: center !important; 
+    background-repeat: no-repeat !important;
+}
+
+.page-enfants .section-1,
+.page-enfants .section-2,
+.page-enfants .section-3,
+.page-enfants .section-4,
+.page-enfants .section-5,
+.page-enfants .section-6 {
+    height: 850px !important;
+    min-height: 850px !important;
+    background-size: contain !important; 
+    background-position: center !important; 
+    background-repeat: no-repeat !important;
+}
+
+.page-enfants .section-1,
+.page-enfants .section-2,
+.page-enfants .section-3,
+.page-enfants .section-4,
+ {
+    height: 850px !important;
+    min-height: 850px !important;
+    background-size: contain !important; 
+    background-position: center !important; 
+    background-repeat: no-repeat !important;
+}
