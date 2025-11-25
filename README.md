@@ -1,53 +1,35 @@
-📌 Portfolio Projects
+# Portfolio de Thomas Daloz
 
-Ensemble de mes projets web : front-end, back-end, automatisation et expérimentations.
+Ce dépôt présente mes projets web principaux réalisés dans le cadre de mes **stages et de mes études**. Il illustre mes compétences en **Front-End, Back-End et automatisation**.
 
-Ce dépôt regroupe différents projets réalisés dans le cadre de mes études, de mes stages ou de ma pratique personnelle.
-Il couvre plusieurs technologies : HTML, CSS, JavaScript, Bootstrap, Node.js, Google Apps Script, Rust, ainsi que diverses expérimentations front-end.
+---
 
-📁 Contenu du dépôt
-🏥 1. Cabinet médical — Site web fictif
+## 🔹 Projets principaux
 
-Techno : HTML5, CSS3, JavaScript, Responsive Design
-Site complet conçu dans le cadre d’un projet universitaire.
-📂 /cabinet-medical-website/
+### 1. Front-End Project — Amélioration de l'interface Easy Grossiste (stage)
+**Technologies :** HTML5, CSS3, JavaScript, Bootstrap4, Responsive Design  
+Interface conçue pour répertorier les grossistes sur Aubervilliers.  
+📂 Dossier : `/front-end-project/`  
 
-🎨 2. Front-End Exercises
+### 2. Back-End Project — Tracking d’e-mails (stage)
+**Technologies :** Node.js, n8n, Google Sheet, Looker Studio  
+Système de tracking automatisé des emails avec visualisation des données.  
+📂 Dossier : `/back-end-project/`  
 
-Techno : HTML5, CSS3, JavaScript, Bootstrap4
-Mini-projets : composants UI, animations CSS, DOM, petits scripts JS.
-📂 /frontend-exercises/
+### 3. Projet universitaire — Gestion de rendez-vous pour un cabinet médical fictif
+**Technologies :** HTML, CSS, JavaScript, PHP, PostgreSQL  
+Projet universitaire illustrant les bases du développement web et la maîtrise des concepts fondamentaux.  
+📂 Dossier : `/projet-universitaire/`  
 
-📫 3. Automation : Tracking d’emails
+---
 
-Techno : Node.js, Google Apps Script
-Script permettant de suivre l’ouverture d’e-mails via automatisation et logs.
-📂 /email-tracking-automation/
+## ⚙️ Installation et utilisation
+Chaque projet possède son **dossier dédié** avec un README détaillant :  
+- la description du projet  
+- les technologies utilisées  
+- comment exécuter / tester le projet  
 
-⚙️ 4. Rust Experiments
+---
 
-Techno : Rust
-Micro-projets d’expérimentation pour découvrir Rust : CLI basique, manipulation de données, etc.
-📂 /rust-experiments/
-
-💻 5. Site web front-end (projet personnel)
-
-Techno : HTML/CSS/JavaScript
-Site responsive réalisé en pratique personnelle.
-📂 /site-front-end/
-
-🔧 Installation & utilisation
-
-Chaque projet possède son propre dossier, avec un README dédié décrivant :
-
-la description du projet
-
-les technologies utilisées
-
-l’installation éventuelle
-
-le code et les démos
-
-🚀 Objectif
-
-Ce dépôt est destiné à présenter mes compétences techniques et mon évolution en développement web, dans le cadre de candidatures pour des postes de développeur web junior / front-end.
+## 🚀 Objectif
+Ce portfolio sert à **présenter mes compétences techniques et mon évolution** en développement web, pour des candidatures à des postes de développeur web junior.
